@@ -33,8 +33,8 @@ public class Ejecutor {
     t2.establecerCosto_Terreno();
     
     System.out.printf("\nAncho: %.2f. \nLargo del terreno: %.2f.\nArea: %.2f.\n"
-            + "Valor por metro cuadrado: %.2f.\nCosto del Terreno: %.2f.",t.obtenerAncho()
-            ,t.obtenerLargo(),t.obtenerArea(),t.obtenerValorMetroCuadrado(),t.obtenerCosto_Terreno());
+            + "Valor por metro cuadrado: %.2f.\nCosto del Terreno: %.2f.",t2.obtenerAncho()
+            ,t2.obtenerLargo(),t2.obtenerArea(),t2.obtenerValorMetroCuadrado(),t2.obtenerCosto_Terreno());
    
     }
 }

@@ -15,7 +15,7 @@ public class EquivalenteHora {
     private double dias;
     
     public void establecerDia(){
-        dias = (hora*(1/hora));
+        dias = (hora/24);
     }
     public void establecerHora(double c){
         hora = c;
